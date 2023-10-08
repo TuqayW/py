@@ -11,6 +11,9 @@ elif len(reqem)==1:
 else:
     print("Edediniz 0 reqem den ibaretdir")
 
+if int(reqem)>0 and int(reqem)<10000:
+    print(len(reqem))
+
 #Tapsiriq 2 (2.İstifadəçi ədəd daxil edir. Onun 3-ə, 5-ə, 7-ə bölünüb bölünməməsini (qalıqsız) yoxlayın.(Her 3 bolme yoxlanmali))
 num=int(input("Ededi daxil et:"))
 
